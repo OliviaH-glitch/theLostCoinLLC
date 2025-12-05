@@ -3,8 +3,16 @@ body {
 }
 
 nav {
-    background-color: rgb(131, 131, 131);
+    background-color: #36295c;
+
 }
+
+nav a, .nav-item {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
 
 button {
     background-color: blueviolet;
