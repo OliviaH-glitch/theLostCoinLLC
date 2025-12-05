@@ -26,3 +26,7 @@ button {
     position: static;
     left: 100px;
 }
+
+.floatLeft {
+    float:left;
+}
