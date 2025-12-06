@@ -20,13 +20,26 @@ button {
     border-radius: 10px;
 }
 
-.quickInfo {
+.navbar-brand {
+    margin:2px;
+
+}
+
+#quickInfo {
     width: 40%;
-    background-color: rgb(202, 162, 240);
+    background-color: #f2f0f6;
     position: static;
     left: 100px;
 }
 
 .floatLeft {
     float:left;
+}
+
+#carouselExampleCaptions {
+align-items: center;
+}
+
+#SloganSection {
+    background-color: #A9A1C3;
 }
