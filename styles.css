@@ -89,22 +89,25 @@ nav a,
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 10px;
+    padding: 40px;
     margin: 15px;
     align-items: center;
+background-color: #44366e;
 }
 
 .info2 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 10px;
+    padding: 40px;
     margin: 15px;
+    align-items: center;
+background-color: #44366e;
 }
 
 .tAndfTitle {
-    background-color: #36295c;
-    color: white;
+    background-color: #ffffff;
+    color: #44366e;
     font-weight: bold;
     align-items: center;
     width: 50%;
@@ -117,14 +120,17 @@ padding:70px;
 margin: 10px;
 border:2px solid grey;
 padding:25px;
+color:white;
 }
 
 @media screen and (min-width: 880px) {
     .info {
         flex-direction: row;
+margin-top: 150px;
     }
 
     .info2 {
         flex-direction: row-reverse;
+margin-top: 150px;
     }
 }
