@@ -66,12 +66,17 @@ padding:10px;
     align-items: center;
 }
 
-#SloganSection {
+.SloganAndFooter {
     background-color: #A9A1C3;
+padding:5px;
 }
 
 #card {
     width: 70%;
+}
+
+footer {
+font-size: 8pt;
 }
 
 /*Styles the Team page*/
