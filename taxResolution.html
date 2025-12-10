@@ -46,6 +46,63 @@
         </div>
     </nav>
 
+    <!--The bootstrap code for the form modal. pops up when the Reach Out button is clicked in the nav. Currently does not send information anywhere-->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Reach Out</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <fieldset>
+                        <form class="row">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <input type="text" class="form-control" placeholder="First and last name"
+                                        aria-label="First name">
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <label for="inputEmail4" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="col-md-5">
+                                <label for="inputPhone4" class="form-label">Phone Number</label>
+                                <input type="phone" class="form-control" id="inputPhone4">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <br>
+                            <div class="col-md-5">
+                                <label for="inputContact" class="form-label">Best Way to Contact</label>
+                                <select id="inputContact" class="form-select">
+                                    <option selected>Email</option>
+                                    <option>Phone</option>
+                                </select>
+                            </div>
+                            <br>
+                            <br>
+
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
+                    </fieldset>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <section class="info2">
 
 
