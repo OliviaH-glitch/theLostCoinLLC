@@ -16,6 +16,9 @@ nav a,
     text-align: center;
 }
 
+#HeadName { /*Increases the size of the brand in the nav bar*/
+font-size: 25pt;
+}
 
 .formButton {
     background-color: blueviolet;
@@ -30,18 +33,18 @@ nav a,
     border-radius: 10px;
 }
 
-.navbar-brand {
+.navbar-brand { /*Moving this margin to the #HeadName section makes it not work. I do not know why*/
     margin: 2px;
-
 }
 
-#rowrow {
+#rowrow { /*Puts the quickInfo and carousel sections side-by-side*/
     margin: 10px;
 padding:10px;
 display:flex;
 flex-direction: column;
 align-items: center;
 }
+
 
 /*Styling for homepage*/
 
@@ -52,8 +55,12 @@ align-items: center;
     left: 100px;
     font-size: 20px;
 margin:10px;
+padding:10px;
 }
 
+#PadThisCard,#PadThisCard2,#PadThisCard3 /*Styles the carousel cards so the text and arrows don't overlap*/{
+    padding:60px;
+}
 
 #carouselExampleCaptions {
     align-items: center;
@@ -83,25 +90,31 @@ margin:10px;
     float: left;
 }
 
-.cohorts {
+.cohorts { /*the div surrounding the cohorts section*/
     padding: 20px;
     margin: 20px;
 }
 
-.vidSection {
+.vidSection /*styles the videos so they don't overlap*/ {
 margin:5px;
 padding:5px;
 align-items: center;
 }
 
-.caption {
+.caption /*the captions under the videos*/ {
 font-size: 12pt;
-
 }
 
-/**/
+#FlexVideos
+{
+    flex-direction: column;
+}
 
-.info {
+/*Forensic and Tax page stylings*/
+
+
+/*info and info2 apply the same stylings to both pages. they are different due to styles in the media query*/
+.info { 
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -120,6 +133,8 @@ background-color: #44366e;
     align-items: center;
 background-color: #44366e;
 }
+
+/*Title and Paragraph stylings. they are shared across pages*/
 
 .tAndfTitle {
     background-color: #ffffff;
@@ -140,8 +155,19 @@ color:white;
 }
 
 @media screen and (min-width: 880px) {
+
 #rowrow {
 flex-direction: row;
+}
+#FlexVideos
+{
+    flex-direction: row;
+
+}
+
+iframe {
+width: 560;
+height: 315;
 }
 
     .info {
