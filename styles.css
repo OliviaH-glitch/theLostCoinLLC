@@ -108,6 +108,7 @@ align-items: center;
 
 .caption /*the captions under the videos*/ {
 font-size: 12pt;
+text-align: center;
 }
 
 #FlexVideos
